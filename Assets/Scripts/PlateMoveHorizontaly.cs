@@ -12,7 +12,21 @@ public class PlateMoveHorizontaly : MonoBehaviour
     {
         OriginPos = transform.position;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            collision.collider.transform.SetParent(transform);
+        }
+    }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            collision.collider.transform.SetParent(null);
+        }
+    }
     void Update()
     {
         transform.position = OriginPos + MoveAxes * Mathf.PingPong(Time.time, Distance);
