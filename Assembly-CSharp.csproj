@@ -58,8 +58,10 @@
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\CharacterCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\PlateMoveVerticly.cs" />
+    <Compile Include="Assets\Scripts\PlateMoveHorizontaly.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
