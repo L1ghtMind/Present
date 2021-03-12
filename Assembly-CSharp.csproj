@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+    <Compile Include="Assets\Scripts\AudioData.cs" />
     <Compile Include="Assets\Scripts\CharacterCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -64,7 +65,9 @@
     <Compile Include="Assets\Scripts\PlateMoveHorizontaly.cs" />
     <Compile Include="Assets\Scripts\CoinPicker.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
-    <Compile Include="Assets\Scripts\AudioData.cs" />
+    <Compile Include="Assets\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scripts\Check.cs" />
+    <Compile Include="Assets\Scripts\PlayerPos.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
