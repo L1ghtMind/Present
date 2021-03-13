@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class KillZone : MonoBehaviour
 {
@@ -13,7 +13,7 @@ public class KillZone : MonoBehaviour
         //If not player then exit
         if (other.transform.tag=="Player")
         {
-            EditorSceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("SampleScene");
         }
         
     }
