@@ -1,5 +1,5 @@
 # Present
-Part of a game I created for one beautiful girl to tell her something important.
+Part of the game I created for the most wonderful girl I know to tell her something important.
 
 Don't judge me harshly, I didn't have much time!
 
