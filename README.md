@@ -8,7 +8,7 @@ P.S.  Don't expect me to let you steal this sweet pie.😈
 # Assets
 Assets was downloaded from https://www.gamedevmarket.net.
 
-For a knight - 
+For a knight - https://www.gamedevmarket.net/asset/hand-drawn-knight/.
 
 For environment - https://www.gamedevmarket.net/asset/pixel-castle-2d-platformer/.
 
